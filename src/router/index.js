@@ -4,6 +4,7 @@ import Router from 'vue-router'
 import PagesView from '@/components/PagesView'
 import PageRecommend from '@/components/PageRecommend'
 import PageToplist from '@/components/PageToplist'
+import PageSearch from '@/components/PageSearch'
 
 Vue.use(Router)
 
@@ -28,6 +29,10 @@ export default new Router({
         {
           path: 'toplist',
           component: PageToplist
+        },
+        {
+          path: 'search',
+          component: PageSearch
         }
       ]
     }

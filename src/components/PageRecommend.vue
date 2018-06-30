@@ -61,6 +61,9 @@ import PublicSlider from '@/components/PublicSlider'
   .mod-list{
     margin: 10px;
   }
+  .mod-list .title-list{
+    padding-bottom: .1rem;
+  }
   .mod-list ul{
     width: 100%;
   }

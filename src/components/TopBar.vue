@@ -8,7 +8,7 @@
     <div class="top_nav">
       <router-link to='recommend' :class="{'active':navpath.fullPath==='/pages/recommend'}">推荐</router-link>
       <router-link to='toplist' :class="{'active':navpath.fullPath==='/pages/toplist'}">排行榜</router-link>
-      <a href="">搜索</a>
+      <router-link to='search' :class="{'active':navpath.fullPath==='/pages/search'}">搜索</router-link>
     </div>
   </div>
 </template>
@@ -40,6 +40,7 @@
 .top_nav{
   height: .75rem;
   width: 100%;
+  background-color: #fff;
 }
 .top_nav a{
   display: block;

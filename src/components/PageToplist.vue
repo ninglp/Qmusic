@@ -10,7 +10,7 @@
         <div class="topic_info">
           <div class="topic_cont">
             <h3>巅峰榜·流行指数</h3>
-            <p><span>1 </span> 怪咖 <span>- 薛之谦</span></p>
+            <p><span>1 </span>怪咖<span>- 薛之谦</span></p>
             <p><span>2 </span> 渐渐 <span>- 陈奕迅</span></p>
             <p><span>3 </span> 浪人琵琶 <span>- 胡66</span></p>
           </div>
@@ -76,40 +76,21 @@
       </div>
     </li>
   </ul>
-    <ul>
-    <li>
-      <div class="clearfix">
-        <a href="">
-          <img src="/static/img/t1.jpg">
-          <span></span>
-        </a>
-        <div class="topic_info">
-          <div class="topic_cont">
-            <h3>巅峰榜·流行指数</h3>
-            <p><span>1 </span> 怪咖 <span>- 薛之谦</span></p>
-            <p><span>2 </span> 渐渐 <span>- 陈奕迅</span></p>
-            <p><span>3 </span> 浪人琵琶 <span>- 胡66</span></p>
-          </div>
-          <i class="topic_arrow"></i>
-        </div>
-      </div>
-    </li>
-  </ul>
   </div>
 </template>
 <script>
   export default{
 
-  }
+}
 </script>
 <style>
   .toplist-warp{
     width: 100%;
-    margin: 10px;
+    margin-left: .2rem;
   }
-    .toplist-warp ul{
-      padding-top: 10px;
-    }
+  .toplist-warp ul{
+    padding-top: .2rem;
+  }
   .toplist-warp ul li{
     position: relative;
     width: 100%;
